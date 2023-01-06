@@ -1,0 +1,226 @@
+
+
+
+
+
+
+body{
+      background-color: rgb(2, 21, 7);
+    
+    
+    
+    letter-spacing:2px;
+    padding:25px;
+    font-family: 'Poiret One', cursive;
+     font-weight: 900;
+     display: flex;
+     flex-direction:column;
+     
+    }
+    
+      #form{
+     color:white;
+      width:31%;
+      height:35px;
+      padding:11px;
+      font-size:25px;
+      box-shadow:15px 15px 25px black;
+      border:2px solid rgb(211, 226, 9);
+      background:rgb(3, 80, 3);
+      border-radius:0 100px 0 100px ;
+      animation:example 1s linear alternate; 
+      }
+  @keyframes example {
+  100%{
+      transform:translate3d(0px,0px,0px0px,);
+    }
+   
+  
+   0%{
+      transform:translate3d(210px,0px,0px);
+    }
+    
+  }
+  
+      
+      .form-control{
+      width:30%;
+      border-bottom:15px;
+      border: solid rgb(211, 226, 9);
+      box-shadow:9px 9px 25px black;
+      margin-bottom:20px;
+       margin-left:10px;
+       border-radius: 30px 0 30px 0;
+      padding:5px 50px 5px 50px;
+      }
+      .form-control:focus{
+      border: solid red;
+      box-shadow:15px 15px 25px black;
+    
+      }
+  
+      
+      #login{
+      background:white;
+      box-shadow:9px 9px 25px black;
+      text-decoration:none;
+      border:2px solid green;
+      padding:5px 25px 5px 25px;
+      font-size:15px;
+      color:black;
+       border-radius: 50px 0 50px 0;
+      }
+      
+      #login:focus{
+      border:2px solid red;
+      box-shadow:9px 9px 25px black;
+      box-shadow:15px 15px 25px black;
+     
+      }
+      
+      #box{
+      background-image: url(./src/8.gif);
+      border:2px solid green;
+      padding:55px;
+      box-shadow:9px 9px 25px black;
+      border-radius: 150px 0 150px 0;
+      width:25%;
+      animation:exam 1s linear alternate; 
+      }
+  
+  @keyframes exam {
+  100%{
+     transform:translate3d(0px,0px,0px)
+    }
+  
+   0%{
+   
+    transform:translate3d(-210px,0px,0px)
+    }
+  }
+  
+  label{box-shadow:9px 9px 25px black;
+  background:green;
+  border-radius: rgb(211, 226, 9);
+  color:wheat;
+  padding:10px 50px 10px 50px;
+  border-radius: 50px 0 50px 0;
+  width:100%;}
+  
+  input[type=text], input[type=password]{
+    outline:none;
+  }
+  
+  
+
+  #form2{
+    color:white;
+    display: flex;
+    
+     margin-left: 50rem;
+     margin-top: -400px;
+     width:36%;
+     height:35px;
+     padding:11px;
+     font-size:25px;
+     box-shadow:15px 15px 25px black;
+     border:2px solid rgb(211, 226, 9);
+     background:rgb(3, 80, 3);
+     border-radius:0 100px 0 100px ;
+     animation:example1 1s linear alternate; 
+     }
+ @keyframes example1 {
+ 100%{
+     transform:translate3d(0px,0px,0px0px,);
+   }
+  
+ 
+  0%{
+     transform:translate3d(210px,0px,0px);
+   }
+   
+ }
+ 
+     
+     .form-controll{
+     width:30%;
+     border-bottom:15px;
+     border: solid rgb(211, 226, 9);
+     box-shadow:9px 9px 25px black;
+     margin-bottom:20px;
+      margin-left:10px;
+      border-radius: 30px 0 30px 0;
+     padding:5px 50px 5px 50px;
+     }
+     .form-controll:focus{
+     border: solid red;
+     box-shadow:15px 15px 25px black;
+   
+     }
+ 
+     
+     #login2{
+     background:white;
+     box-shadow:9px 9px 25px black;
+     text-decoration:none;
+     border:2px solid green;
+     padding:5px 25px 5px 25px;
+     font-size:15px;
+     color:black;
+      border-radius: 50px 0 50px 0;
+     }
+     
+     #login2:focus{
+     border:2px solid red;
+     box-shadow:9px 9px 25px black;
+     box-shadow:15px 15px 25px black;
+    
+     }
+     
+     #boxx2{
+      background-image: url(./src/8.gif);
+     border:2px solid green;
+     padding:55px;
+     box-shadow:9px 9px 25px black;
+     border-radius: 150px 0 150px 0;
+     width:30%;
+     margin-left: 50rem;
+     animation:exam1 1s linear alternate; 
+     }
+ 
+ @keyframes exam1 {
+ 100%{
+    transform:translate3d(0px,0px,0px)
+   }
+ 
+  0%{
+  
+   transform:translate3d(-210px,0px,0px)
+   }
+ }
+ 
+ .label{box-shadow:9px 9px 25px black;
+ background:green;
+ color:white;
+ padding:10px 50px 10px 50px;
+ border-radius: 50px 0 50px 0;
+ width:100%;}
+ 
+ input[type=text], input[type=password]{
+   outline:none;
+ }
+
+  .myform2{
+    display: flex;
+    margin-left: 100px;
+  }
+ 
+ #form2 i {
+         display: flex;
+         margin-left: 120px;
+ }
+ #form i{
+     display: inline;
+      margin-left: 120px;
+ }
+  
